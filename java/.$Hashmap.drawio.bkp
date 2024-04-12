@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-04-12T11:04:49.057Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="LihIeonwEKDuNDJA0EXK" version="24.1.0" type="device">
+<mxfile host="Electron" modified="2024-04-12T11:03:19.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="sHuX6yr5sfOdrpllqBAh" version="24.1.0" type="device">
   <diagram id="ohnXSiem4yEs87opojs4" name="HashMap">
-    <mxGraphModel dx="2290" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3562" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -785,7 +785,7 @@
             <mxGeometry x="90" y="1569" width="150" height="36" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="AkrwQzVMCrjtAvMQB0j2-33" value="红黑树的性质&#xa;红黑树是一种含有红黑结点并能自平衡的二叉查找树。它必须满足下面性质：&#xa;性质1：每个节点要么是黑色，要么是红色。&#xa;性质2：根节点和每个叶子节点（NIL）是黑色。----&gt;   两头黑&#xa;性质3：每个红色结点的两个子结点一定都是黑色。&#xa;性质4：任意一结点到每个叶子结点的路径都包含数量相同的黑结点。&#xa;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="AkrwQzVMCrjtAvMQB0j2-33" value="红黑树的性质&#xa;红黑树是一种含有红黑结点并能自平衡的二叉查找树。它必须满足下面性质：&#xa;性质1：每个节点要么是黑色，要么是红色。&#xa;性质2：根节点是黑色。&#xa;性质3：每个叶子节点（NIL）是黑色。&#xa;性质4：每个红色结点的两个子结点一定都是黑色。&#xa;性质5：任意一结点到每个叶子结点的路径都包含数量相同的黑结点。（保证这棵树尽量是平衡的。）" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1600" y="20" width="560" height="140" as="geometry" />
         </mxCell>
       </root>
